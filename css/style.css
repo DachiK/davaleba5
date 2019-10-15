@@ -1,0 +1,78 @@
+body{
+    background: #22B573;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+.header{
+    padding: 20px 15px;
+}
+.header:after{
+    content: " ";
+    clear:right;
+    display:block;
+}
+.logo{
+    width: 201px; 
+    height: 150px;
+    float: right;
+    margin-right: 57px;
+    margin-top: 50px;
+    
+}
+.navbar-li{
+    float: right;
+    margin-top: 50px;
+    margin-right: 130px;
+}
+.navbar-a{
+    color: white;
+    font-size: 48px;
+    margin-right: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1160px;
+    width: 100%;
+    background-color:#22B573;
+    margin:125px auto;
+    
+}
+.box{
+    width: 500px;
+    background-color: #FCEE21;
+    float: left;
+    margin-left: 70px;
+}
+.box1{
+    width: 500px;
+    background-color: #FCEE21;
+    float: right;
+    margin-right: 70px;
+    text-align: right;
+}
+.container:after{
+    content: " ";
+    clear:right;
+    display:block;
+}
+.text1{
+    font-size: 14px;
+    font-family: 'Fjalla One', sans-serif;
+    margin:15px 15px;
+}
+.text2{
+    font-size: 14px;
+    font-family: 'Fjalla One', sans-serif;
+    color:#22B573;
+    margin:15px 15px;
+}
+.photo{
+    float: right;
+    margin:10px 20px;
+}
+.photo1{
+    float: left;
+    margin:10px 20px;
+}
